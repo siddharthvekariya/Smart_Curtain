@@ -130,9 +130,9 @@ def Manual():
 	Motor1A = 35 	# Motor wire A
 	Motor1B = 37 	# Motor wirw B
 	Motor1E = 12	# Motor enable for h-bridge
-	B1 = 33 		# Input Button Up
-	B2 = 31			# Input Button Down
-	W_up = 13 		# Web input Button Up
+	B1 = 33 	# Input Button Up
+	B2 = 31		# Input Button Down
+	W_up = 13 	# Web input Button Up
 	W_down = 11 	# Web input Button Down
 	Limit_UP = 29 	# Limit switch Up
 	Limit_Down = 26 # Limit switch Down
