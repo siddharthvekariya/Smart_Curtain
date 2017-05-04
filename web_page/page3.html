@@ -1,0 +1,65 @@
+<html>
+<head>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content = "height = device-height, width = 420, user-scalable = no" />
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<script type="text/javascript" src="/webiopi.js"></script>
+	<script type="text/javascript" src=Js/myscript.js></script>
+<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous">
+				  
+</script>
+</head>
+
+<script>
+function check(){
+	
+	
+	_on_hours = document.myform.On_Hours.value;	
+	_On_minutes = document.myform.On_minutes.value;
+	_Off_Hours = document.myform.Off_Hours.value;
+	_Off_minutes = document.myform.Off_minutes.value;
+		
+	
+	$.post( "http://192.168.0.100:4004", { HOUR_ON: _on_hours, MINUTES_ON: _On_minutes, HOUR_OFF: _Off_Hours, MINUTES_OFF: _Off_minutes } );
+	
+		
+}
+</script>	
+
+
+
+<body>
+
+<div align="center" style="font-size:25px">This is Set Time Mode! blinds will open at sunrise time and close at at user defined time, press Submit first and then click Activate to select this mode</div>
+	<p>
+<div align="center" style="font-size:15px">
+<center>
+Enter values in 24hr time formate.
+<form name="myform" >
+  Set On Hour: <input type="text" name="On_Hours">
+  <br>
+  Set On Minutes: <input type="text" name="On_minutes">
+  <br>
+  Set Off Hour: <input type="text" name="Off_Hours">
+  <br>
+  Set Off Minutes: <input type="text" name="Off_minutes">
+  
+  <br><br>
+  <input type="submit" value="Submit" onclick='check(); return false'>
+</form> 
+</center>
+	
+	<center>
+	<form method="submit" action="http://192.168.0.105:3000/page3.html">
+		
+	<button id="Submit3" type="submit" class="btn">Activate</button>
+	</form>
+	</center>
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,263 @@
+body {
+	background-color: #EEE;
+}
+
+#main {
+	background-color:#037bf1;  
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 550px;
+
+}
+
+#footer {
+	background-color: gray;
+	color: black;
+	text-align: right;
+	padding: 8px;
+	float: bottom;
+}
+
+#Button1{
+	background-color: white;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;  
+}
+
+h1{
+	color: black;
+	font-style: bold;
+	font-size: 40px;
+}
+
+#Button2{
+	background-color: white;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;    
+
+}
+
+#Button3{
+	background-color: white;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;  
+}
+
+#Button4{
+	background-color: white;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;
+}
+
+
+#Submit1{
+	background-color: #43a047;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;    
+}
+
+#Submit2{
+	background-color: black;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;    
+}
+
+#Submit4{
+	background-color: black;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;    
+}
+
+#Submit3{
+	background-color: black;
+	width: 250px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-style: none;    
+}
+
+
+
+
+#temp{
+	font-size: 24px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#rise{
+	font-size: 24px;
+	text-align: left;
+	margin-left: 10px;
+
+}
+
+#set{
+	font-size: 24px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#tym{
+	font-size: 24px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#gpio13.LOW {
+    background-color: Black;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    margin: 100px;
+    
+}
+
+
+#gpio13.HIGH {
+	background-color: red;
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+}
+
+#gpio6.LOW {
+    background-color: Black;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    
+}
+
+
+#gpio6.HIGH {
+	background-color: red;
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+}
+
+#gpio19.LOW {
+    background-color: Black;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    
+}
+
+
+#gpio19.HIGH {
+	background-color: red;
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+}
+#gpio26.LOW {
+    background-color: Black;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    
+}
+
+
+#gpio26.HIGH {
+	background-color: red;
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+}
+
+#gpio17.LOW {
+    background-color:black;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+
+#gpio17.HIGH {
+	background-color: orange;
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+#gpio27.LOW {
+    background-color:black;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+
+#gpio27.HIGH {
+	background-color: orange;
+	width: 200px;
+	height: 50px;
+	font-size: 24px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+
+#controls{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+

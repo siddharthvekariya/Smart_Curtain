@@ -1,0 +1,30 @@
+<html>
+<head>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content = "height = device-height, width = 420, user-scalable = no" />
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<script type="text/javascript" src="/webiopi.js"></script>
+	<script type="text/javascript" src=Js/myscript.js></script>
+
+</head>
+
+
+<body>
+	
+	<div align="center" style="font-size:25px">This is Daylight Mode! blinds will open at sunrise time and close at sunset time, press Activate to select this mode</div>
+	<p>
+	
+	<div align="center" style="font-size:20px">Temperature = <span id="temperature"></span>&deg;C</div>
+	<div align="center" style="font-size:20px">Sunrise Time : <span id="sunrise"></span> </div>
+	<div align="center" style="font-size:20px">Sunset Time : <span id="sunset"></span> </div>
+	
+	<center>
+	<form method="submit" action="http://192.168.0.105:4200/Daylight">
+	<button id="Submit2" type="submit" class="btn">Activate</button>
+	</form>
+	</center>
+
+
+</body>
+</html>
